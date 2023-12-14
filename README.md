@@ -45,7 +45,7 @@ Utilizes OpenStreetMap to display the locations of water-related problems. Click
 
 ## Getting Started
 
-To run the WaterRaiser app locally, follow these steps:
+To run the Jal Jeevan app locally, follow these steps:
 
 1. Clone the repository.
 2. Open the project in Android Studio.
