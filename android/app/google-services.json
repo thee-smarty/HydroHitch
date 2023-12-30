@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:554234008708:android:4b6feae299627cc514ded1",
         "android_client_info": {
-          "package_name": "com.example.epics"
+          "package_name": "com.theesmarty.epics"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "554234008708-rt8kr2tmi73n1q3tort03j1j40ig20sp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.epics",
+            "package_name": "com.theesmarty.epics",
             "certificate_hash": "b7c4295322df3cf5eab7bf43188b9755277f785d"
           }
         },
@@ -46,7 +46,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:554234008708:android:11d0ac7e6ee4df5c14ded1",
         "android_client_info": {
-          "package_name": "com.example.untitled"
+          "package_name": "com.theesmarty.untitled"
         }
       },
       "oauth_client": [
