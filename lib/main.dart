@@ -18,7 +18,7 @@ import 'form.dart';
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(apiKey: 'AIzaSyAsQef8q69Q4OkeI-_PDb5YASJsGmqiVOA', appId: '1:554234008708:android:11d0ac7e6ee4df5c14ded1'
+    options: const FirebaseOptions(apiKey: 'AIzaSyBKzUeHYJoAvJV5Erw4JFIUcM52JaWG-m4', appId: '1:554234008708:android:11d0ac7e6ee4df5c14ded1'
         , messagingSenderId: '554234008708'	, projectId: 'auth-jaljeevan', storageBucket: 'auth-jaljeevan.appspot.com' ,
     )
   );
@@ -109,7 +109,7 @@ Widget _buildPanel(BuildContext context) {
                   Navigator.push(context,MaterialPageRoute(builder: (context)=> const RForm()));
                   // Navigate to the next screen or perform other actions.
                 } else {
-                  user = await googleAuthService.signInWithGoogle();
+                  user = await googleAuthService.signInWithGoogle(context);
                 }
               },
               style: ButtonStyle(
@@ -211,7 +211,7 @@ Widget _buildPanel(BuildContext context) {
                 Navigator.push(context,MaterialPageRoute(builder: (context)=>  UserP(context)));
                 // Navigate to the next screen or perform other actions.
               } else {
-                user = await googleAuthService.signInWithGoogle();
+                user = await googleAuthService.signInWithGoogle(context);
               }
             },
             style: ButtonStyle(
@@ -287,7 +287,7 @@ class GoogleAuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
-  Future<User?> signInWithGoogle() async {
+  Future<User?> signInWithGoogle(BuildContext context) async {
     try {
       final GoogleSignInAccount? googleSignInAccount = await _googleSignIn
           .signIn();
@@ -307,8 +307,10 @@ class GoogleAuthService {
         return user;
       }
     } catch (e) {
-      SnackBar(
-        content: Text("Error signing in with Google: $e"),
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text("Error signing in with Google: $e"),
+        ),
       );
       return null;
     }
