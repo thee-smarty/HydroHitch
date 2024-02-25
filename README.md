@@ -55,4 +55,4 @@ To run the Jal Jeevan app locally, follow these steps:
 
 Feel free to explore and contribute to the project. If you encounter any issues or have suggestions, please open an issue or create a pull request.
 
-Happy Programming!
+Enjoy Developing!
