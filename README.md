@@ -53,8 +53,7 @@ To run the Jal Jeevan app locally, follow these steps:
 4. Set up a Firebase project and link it to the app.
 5. Run the app on an emulator or physical device.
 
-or you can directly download the application in the playstore : [Jal Jeevan][GooglePlay]
-[GooglePlay] : https://play.google.com/store/apps/details?id=com.theesmarty.epics
+or you can directly download the application in the playstore : [Jal Jeevan](https://play.google.com/store/apps/details?id=com.theesmarty.epics)
 
 Feel free to explore and contribute to the project. If you encounter any issues or have suggestions, please open an issue or create a pull request.
 
