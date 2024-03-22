@@ -75,7 +75,7 @@ class _MyAppState extends State<MyApp> {
     getCurrentLocation();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Jal Jeevan'),
+        title: const Text('Hydro Hitch'),
       ),
       body:SlidingUpPanel (
           maxHeight: MediaQuery.of(context).size.height*0.65,
