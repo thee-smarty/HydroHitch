@@ -55,6 +55,4 @@ To run the Hydro Hitch app locally, follow these steps:
 
 or you can directly download the application in the playstore : [Hydro Hitch](https://play.google.com/store/apps/details?id=com.theesmarty.epics)
 
-Feel free to explore and contribute to the project. If you encounter any issues or have suggestions, please open an issue or create a pull request.
-
-Enjoy Developing!
+Keep Developing!
