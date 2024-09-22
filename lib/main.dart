@@ -9,7 +9,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 // ignore: depend_on_referenced_packages
 import 'package:latlong2/latlong.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:untitled/user.dart';
+import 'user.dart';
 import 'problems.dart';
 import 'application.dart';
 import 'form.dart';
