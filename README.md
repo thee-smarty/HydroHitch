@@ -1,6 +1,6 @@
-# Jal Jeevan
+# Hydro Hitch
 
-Welcome to the Jal Jeevan Flutter project repository! This Android application aims to address water-related issues locally by allowing users to raise problems through an intuitive interface. The prolems will be submitted to the local authorities to take a look and solve them. The app utilizes Flutter for the front-end, Firebase for the database, and OpenStreetMap for mapping functionalities.
+Welcome to the Hydro Hitch Flutter project repository! This Android application aims to address water-related issues locally by allowing users to raise problems through an intuitive interface. The prolems will be submitted to the local authorities to take a look and solve them. The app utilizes Flutter for the front-end, Firebase for the database, and OpenStreetMap for mapping functionalities.
 
 ## Features
 
@@ -45,7 +45,7 @@ Utilizes OpenStreetMap to display the locations of water-related problems. Click
 
 ## Getting Started
 
-To run the Jal Jeevan app locally, follow these steps:
+To run the Hydro Hitch app locally, follow these steps:
 
 1. Clone the repository.
 2. Open the project in Android Studio.
@@ -53,8 +53,6 @@ To run the Jal Jeevan app locally, follow these steps:
 4. Set up a Firebase project and link it to the app.
 5. Run the app on an emulator or physical device.
 
-or you can directly download the application in the playstore : [Jal Jeevan](https://play.google.com/store/apps/details?id=com.theesmarty.epics)
+or you can directly download the application in the playstore : [Hydro Hitch](https://play.google.com/store/apps/details?id=com.theesmarty.epics)
 
-Feel free to explore and contribute to the project. If you encounter any issues or have suggestions, please open an issue or create a pull request.
-
-Enjoy Developing!
+Keep Developing!
